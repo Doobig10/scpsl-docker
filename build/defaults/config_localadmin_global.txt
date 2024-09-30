@@ -1,0 +1,23 @@
+restart_on_crash: ${LA_RESTART_ON_CRASH:-true}
+enable_heartbeat: ${LA_ENABLE_HEARTBEAT:-true}
+set_terminal_title: ${LA_SET_TERMINAL_TITLE:-true}
+la_live_view_use_utc: ${LA_LA_LIVE_VIEW_USE_UTC:-false}
+la_live_view_time_format: ${LA_LA_LIVE_VIEW_TIME_FORMAT:-"yyyy-MM-dd HH:mm:ss.fff zzz"}
+la_show_stdout_and_stderr: ${LA_LA_SHOW_STDOUT_AND_STDERR:-false}
+la_no_set_cursor: ${LA_LA_NO_SET_CURSOR:-false}
+enable_true_color: ${LA_ENABLE_TRUE_COLOR:-true}
+enable_la_logs: ${LA_ENABLE_LA_LOGS:-true}
+la_logs_use_utc: ${LA_LA_LOGS_USE_UTC:-false}
+la_logs_use_Z_for_utc: ${LA_LA_LOGS_USE_Z_FOR_UTC:-false}
+la_log_auto_flush: ${LA_LA_LOG_AUTO_FLUSH:-true}
+la_log_stdout_and_stderr: ${LA_LA_LOG_STDOUT_AND_STDERR:-true}
+la_delete_old_logs: ${LA_LA_DELETE_OLD_LOGS:-true}
+la_logs_expiration_days: ${LA_LA_LOGS_EXPIRATION_DAYS:-90}
+delete_old_round_logs: ${LA_DELETE_OLD_ROUND_LOGS:-true}
+round_logs_expiration_days: ${LA_ROUND_LOGS_EXPIRATION_DAYS:-180}
+compress_old_round_logs: ${LA_COMPRESS_OLD_ROUND_LOGS:-true}
+round_logs_compression_threshold_days: ${LA_ROUND_LOGS_COMPRESSION_THRESHOLD:-14}
+heartbeat_span_max_threshold: ${LA_HEARTBEAT_SPAN_MAX_THRESHOLD:-30}
+heartbeat_restart_in_seconds: ${LA_HEARTBEAT_RESTART_IN_SECONDS:-11}
+la_to_sl_buffer_size: ${LA_LA_TO_SL_BUFFER_SIZE:-25000}
+sl_to_la_buffer_size: ${LA_SL_TO_LA_BUFFER_SIZE:-200000}
